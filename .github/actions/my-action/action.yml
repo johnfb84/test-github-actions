@@ -2,9 +2,10 @@ name: "My action"
 description: "Mi primer action"
 
 inputs:
-  message: "MEssage to print"
-  required: true
-  default: "Hola"
+  message: 
+    description: "MEssage to print"
+    required: true
+    default: "Hola"
 
 runs:
   using: "composite"
